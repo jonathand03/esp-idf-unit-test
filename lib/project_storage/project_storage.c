@@ -2,7 +2,7 @@
 
 storage_ret init_storage(bool verification)
 {
-    const char *log_path_label  = LOG_PATH_NAME;
+   
     const char *root_path_label = ROOT_PATH_NAME;
     size_t path_size = 0, path_size_used = 0;
     esp_err_t ret;
